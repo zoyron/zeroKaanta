@@ -1,6 +1,7 @@
 import {FaPen, FaRegCircle, FaTimes} from 'react-icons/fa';
 import React from 'react';
-import { IconBase } from 'react-icons/lib/cjs';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Icon = ({name}) => {
   switch({name}) {
