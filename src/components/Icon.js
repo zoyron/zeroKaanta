@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Icon = ({name}) => {
-  switch({name}) {
+  switch(name) {
     case 'circle':
       return <FaRegCircle className="icons" />
     case 'cross':
